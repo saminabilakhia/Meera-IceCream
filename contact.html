@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Meera Icecreams</title>
+    <link rel="icon" type="image/jpeg" href="assets/img/icons/WhatsApp Image 2025-10-13 at 3.10.32 AM.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/img/icons/WhatsApp Image 2025-10-13 at 3.10.32 AM.jpeg" alt="Meera Icecreams" style="height: 40px; margin-right: 10px; border-radius: 5px;">
+                <h2>Meera Icecreams</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="flavors.html">Flavors</a></li>
+                <li><a href="stores.html">Stores</a></li>
+                <li><a href="franchise.html">Franchise</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section" style="margin-top: 70px;">
+        <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+        <p style="text-align: center; font-size: 1.1rem; margin-bottom: 50px;">We'd love to hear from you! Get in touch with any questions or feedback.</p>
+        
+        <div class="contact-grid">
+            <!-- Contact Form -->
+            <div class="card">
+                <h3><i class="fas fa-paper-plane"></i> Send us a Message</h3>
+                <form action="send_message.php" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Full Name *" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email Address *" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <select name="subject">
+                            <option value="">Select Subject</option>
+                            <option value="General Inquiry">General Inquiry</option>
+                            <option value="Franchise Information">Franchise Information</option>
+                            <option value="Bulk Orders">Bulk Orders</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Complaint">Complaint</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message *" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Information -->
+            <div>
+                <div class="card" style="margin-bottom: 30px;">
+                    <h3><i class="fas fa-phone"></i> Get in Touch</h3>
+                    <div style="margin: 20px 0;">
+                        <p><strong><i class="fas fa-map-marker-alt"></i> Head Office:</strong><br>
+                        MEERA ICE CREAM New branch<br>
+                        New Bus port, shopping center, Madhuvan Society, Nilkamal Society, Palanpur, Gujarat 385001</p>
+                        
+                        <p><strong><i class="fas fa-phone"></i> Phone:</strong><br>
+                        +91 98765 43210</p>
+                        
+                        <p><strong><i class="fas fa-envelope"></i> Email:</strong><br>
+                        meeraicecraemmsh@gmail.com</p>
+                        
+                        <p><strong><i class="fas fa-clock"></i> Business Hours:</strong><br>
+                        Monday - Sunday: 10:00 AM - 11:00 PM</p>
+                    </div>
+                </div>
+
+                <!-- Map -->
+                <div class="card">
+                    <h3><i class="fas fa-map"></i> Find Us</h3>
+                    <div class="map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1819.9905602123613!2d72.41893261671069!3d24.172394886309448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395cebe5beb42089%3A0x65dc5d312b363296!2sMEERA%20ICE%20CREAM%20New%20branch!5e0!3m2!1sen!2sin!4v1760304638165!5m2!1sen!2sin"
+                            width="100%" 
+                            height="300" 
+                            style="border:0; border-radius: 10px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Options -->
+    <section class="section">
+        <h2><i class="fas fa-rocket"></i> Quick Contact Options</h2>
+        <div class="grid grid-3">
+            <div class="card" style="text-align: center;">
+                <h3><i class="fas fa-phone"></i> Call Us</h3>
+                <p>Speak directly with our team for immediate assistance</p>
+                <a href="tel:+919876543210" class="btn">Call Now</a>
+            </div>
+            <div class="card" style="text-align: center;">
+                <h3><i class="fas fa-envelope"></i> Email Us</h3>
+                <p>Send us your queries and we'll respond within 24 hours</p>
+                <a href="mailto:meeraicecraemmsh@gmail.com" class="btn">Send Email</a>
+            </div>
+            <div class="card" style="text-align: center;">
+                <h3><i class="fas fa-store"></i> Visit Store</h3>
+                <p>Visit any of our outlets for a personal experience</p>
+                <a href="stores.html" class="btn">Find Stores</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><i class="fas fa-ice-cream"></i> Meera Icecreams</h3>
+                <p>Serving happiness, one scoop at a time.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="story.html">Our Story</a></li>
+                    <li><a href="flavors.html">Flavors</a></li>
+                    <li><a href="franchise.html">Franchise</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                <p><i class="fas fa-envelope"></i> meeraicecraemmsh@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Palanpur, Gujarat</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Meera Icecreams. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
